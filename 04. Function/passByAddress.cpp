@@ -9,7 +9,7 @@ void willChangeTheValue(auto *x) {
 }
 
 int main() {
-  std::cout << "Pass by value" << '\n';
+  std::cout << "Pass by address" << '\n';
   int a = 10;
   std::cout << "a is now: " << a << '\n';
   willChangeTheValue(&a);
