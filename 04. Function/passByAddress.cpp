@@ -14,5 +14,6 @@ int main() {
   std::cout << "a is now: " << a << '\n';
   willChangeTheValue(&a);
   std::cout << "a afterwards: " << a << '\n';
+  std::cerr << "Error " << '\n';
   return 0;
 }
