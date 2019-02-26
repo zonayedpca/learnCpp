@@ -12,7 +12,7 @@ public:
 };
 
 Calculator operator+ (Calculator &calc1, Calculator &calc2) {
-  return Calculator(calc1.m_result + calc2.m_result);
+  return calc1.m_result + calc2.m_result;
 }
 
 int main() {
